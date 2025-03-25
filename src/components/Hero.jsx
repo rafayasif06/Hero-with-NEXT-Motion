@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -20,22 +19,20 @@ export const Hero = () => {
           quality={100}
           priority
         />
-        <div className=" pl-5 pb-8 absolute left-0 bottom-0 text-3xl sm:text-3xl lg:text-5xl text-white font-normal font-ptSerif ">
+        <div className=" pl-5 pb-8 absolute left-0 bottom-0 text-3xl sm:text-3xl lg:text-6xl text-white font-normal font-ptSerif ">
           <p className="flex gap-3 overflow-hidden p-1 ">
             <motion.span
               initial="hidden"
               animate="visible"
               variants={variants}
-              transition={{ duration: 0.4, delay: 0.3 }}
-            >
+              transition={{ duration: 0.4, delay: 0.3 }}>
               Elevating
             </motion.span>
             <motion.span
               initial="hidden"
               animate="visible"
               variants={variants}
-              transition={{ duration: 0.4, delay: 0.45 }}
-            >
+              transition={{ duration: 0.4, delay: 0.4 }}>
               your
             </motion.span>
           </p>
@@ -44,16 +41,14 @@ export const Hero = () => {
               initial="hidden"
               animate="visible"
               variants={variants}
-              transition={{ duration: 0.4, delay: 0.6 }}
-            >
+              transition={{ duration: 0.4, delay: 0.5 }}>
               daily
             </motion.span>
             <motion.span
               initial="hidden"
               animate="visible"
               variants={variants}
-              transition={{ duration: 0.4, delay: 0.75 }}
-            >
+              transition={{ duration: 0.4, delay: 0.6 }}>
               routine
             </motion.span>
           </p>
